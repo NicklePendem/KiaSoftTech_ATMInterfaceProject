@@ -39,9 +39,9 @@ namespace ATMInterfaceProject.App
         {
             UserAccountList = new List<UserAccount>
         {
-            new UserAccount{ Id=1, FullName ="Adapa Mohith Surya",AccountNumber=123456, CardNumber=321321 , CardPin=, AccountBalance=500000.00m,IsLocked=false},
-            new UserAccount{ Id=2, FullName ="Adapa Ramakrishna",AccountNumber=654321, CardNumber=987987 , CardPin=555555 , AccountBalance=800000.00m,IsLocked=false},
-            new UserAccount{ Id=3, FullName ="Adapa Aruna Kumari",AccountNumber=258258, CardNumber=121212 , CardPin=198412 , AccountBalance=600000.00m,IsLocked=true},
+            new UserAccount{ Id=1, FullName ="Pendem Nickle",AccountNumber=654321, CardNumber=321321 , CardPin=496219 , AccountBalance=700000.00m,IsLocked=false},
+            new UserAccount{ Id=2, FullName ="Raju",AccountNumber=654371, CardNumber=987987 , CardPin=942795 , AccountBalance=900000.00m,IsLocked=false},
+            new UserAccount{ Id=3, FullName ="Jhon",AccountNumber=258258, CardNumber=121212 , CardPin=198412 , AccountBalance=100000.00m,IsLocked=true},
         };
             _listofTransaction = new List<Transaction>();
         }
